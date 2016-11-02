@@ -28,7 +28,25 @@ h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	width: 15%;
 	}
-#About-Me,#Contact,#Projects
+.topnav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: #dddddd;
+	background-color: #ffffff;
+	float:right;
+}
+.topnav li{
+	float:left;
+
+}
+#Projects{
+	padding-left: 10px;
+	margin-left: 50px;
+	border: 50px;
+	position: relative;
+}
+
 
 #body-page {
 	color: #4aaaa5;
