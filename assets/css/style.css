@@ -10,11 +10,15 @@ body {
 header{
 	background-color:#ffffff;
 	border-color:#cccccc;
-	width: 120%;
+	width: 100%;
 	margin-top: 0;
 	border-top: 0;
-	
-
+	border-bottom: 3px;
+	border-color: #dddddd;
+	border-bottom-style: solid;
+	height: 100%;
+	clear: both;
+	overflow: auto;
 }
 h1 {
 	background-color:#4aaaa5;
@@ -27,11 +31,12 @@ h1 {
 	font-size: 24px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	width: 15%;
+	float: left;
 	}
 .topnav{
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	margin-top:50px;
+	padding: 20px;
 	color: #dddddd;
 	background-color: #ffffff;
 	float:right;
@@ -40,11 +45,11 @@ h1 {
 	float:left;
 
 }
-#Projects{
+#Projects,#Home,#About,#Contact{
 	padding-left: 10px;
 	margin-left: 50px;
 	border: 50px;
-	position: relative;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 
