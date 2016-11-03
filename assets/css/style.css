@@ -45,6 +45,16 @@ h1 {
 	float:left;
 
 }
+.social-media-box li{
+	float:left;
+}
+.GitHub, .Linkedin{
+	width: 80px;
+	height: 80px;
+}
+.Linkedin{
+	margin-left: 40px;
+}
 #Projects,#Home,#About,#Contact{
 	padding-left: 10px;
 	margin-left: 50px;
@@ -86,8 +96,9 @@ h1 {
 	margin-left: 50px;
 	margin-top: 50px;
 	margin-right: 100px;
-	width: 270px;
+	width: 200px;
 	text-align: center;
+	
 }
 #bio-image{
 	float: left;
