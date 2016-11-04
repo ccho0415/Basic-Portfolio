@@ -105,6 +105,8 @@ h1 {
 #bio-image{
 	float: left;
 	margin-right: 20px;
+	width: 250px;
+	height: 200px;
 }
 #footer{
 	background-color: #666666;
